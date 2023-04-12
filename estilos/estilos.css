@@ -1,0 +1,40 @@
+nav,
+.offcanvas {
+  background-color: #F45050;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav > li:hover {
+    background-color: #F9D949;
+  }
+}
+
+
+h1{
+  text-align: center;
+  padding-top: 5%;  
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+.formulario{
+  display: flex;
+  justify-content: center;
+}
+.fondo{
+  background-image: url(/images/fondo-formulario-tactical-e1608198739339.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
